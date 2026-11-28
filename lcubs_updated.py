@@ -53,7 +53,7 @@ def longestCubicSubsequence(sequence):
         Input:
             sequence: a string
         Output:
-            A string of length 3k, where k is the length of the longest subsequence of the form X + X + X.
+            Returns X + X + X, where X is a longest repeated block. The returned string has length 3 * len(X).
     """
     best = ""
 
